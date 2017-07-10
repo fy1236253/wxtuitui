@@ -35,9 +35,9 @@ func ConfigWechatRoutes() {
 		var wxcfg *mp.WechatConfig
 		var queryValues url.Values
 
-		wxid := strings.Trim(req.URL.Path, "/coolwx/")
+		wxid := strings.Trim(req.URL.Path, "/wxtuitui/")
 		log.Println("wxid -->", wxid) //    /gh_8ac8a8821eb9
-		log.Println(g.Config().Wechats)
+		log.Println(g.Config())
 		wxcfg = g.GetWechatConfig(wxid) // 通过微信id 获取 对接的配置信息
 		if wxcfg == nil {
 			panic("[Warn] wecat config not find")
