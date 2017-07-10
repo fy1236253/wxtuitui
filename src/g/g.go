@@ -1,6 +1,7 @@
 package g
 
 import (
+	"fmt"
 	"log"
 	"os"
 )
@@ -19,5 +20,11 @@ func InitRootDir() {
 	Root, err = os.Getwd()
 	if err != nil {
 		log.Fatalln("getwd fail:", err)
+	}
+}
+func FailOnError(err error, msg string) {
+	if err != nil {
+		log.Fatalf("%s: %s", err, msg)
+		panic(fmt.Sprintf("%s: %s", err, msg))
 	}
 }

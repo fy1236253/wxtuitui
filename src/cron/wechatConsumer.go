@@ -18,7 +18,7 @@ import (
 
 func handler(in string) (string, error) {
 
-	var head model.JsonHead
+	var head model.JSONHead
 
 	e := json.Unmarshal([]byte(in), &head)
 	if e != nil {
@@ -26,7 +26,7 @@ func handler(in string) (string, error) {
 		return "", nil // 吃掉错误
 	}
 
-	wxid := head.WxId
+	wxid := head.WxID
 	cmd := head.Cmd
 
 	if g.GetWechatConfig(wxid) == nil {
@@ -39,7 +39,7 @@ func handler(in string) (string, error) {
 	case "SendSmsNotify": // 最终发送 模板消息
 		{
 			log.Println("[mq json] head", head, "json", in)
-			go model.SendSmsNotify(wxid, head.Uuid, in, "", "") // 发送内部格式的 模板消息
+			go model.SendSmsNotify(wxid, head.UUID, in, "", "") // 发送内部格式的 模板消息
 		}
 
 	//case "admin_template": // 短信模板审核 发送客服类消息
@@ -65,10 +65,10 @@ func handler(in string) (string, error) {
 			log.Println("[mq json] head", head, "json", in)
 			go menu.CreateMenu(in, g.GetWechatAccessToken(wxid))
 		}
-	case "syncuser": // 同步用户 
+	case "syncuser": // 同步用户
 		{
 			log.Println("[mq json] head", head, "json", in)
-			go model.UsersListSync(wxid)
+			// go model.UsersListSync(wxid)
 		}
 	}
 
