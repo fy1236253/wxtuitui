@@ -20,21 +20,8 @@ import (
 
 // ConfigWechatRoutes 微信页面路由
 func ConfigWechatRoutes() {
-	// http.HandleFunc("/tuike/", func(w http.ResponseWriter, req *http.Request) {
-	// 	// 捕获异常
-	// 	defer func() {
-	// 		if r := recover(); r != nil {
-	// 			log.Printf("Runtime error caught: %v", r)
-	// 			w.WriteHeader(400)
-	// 			w.Write([]byte(""))
-	// 			return
-	// 		}
-	// 	}()
-	// 	queryValues, _ := url.ParseQuery(req.URL.RawQuery)
-	// 	log.Println(queryValues)
-	// })
 
-	http.HandleFunc("/coolwx/", func(w http.ResponseWriter, req *http.Request) {
+	http.HandleFunc("/wxtuitui/", func(w http.ResponseWriter, req *http.Request) {
 
 		// 捕获异常
 		defer func() {
