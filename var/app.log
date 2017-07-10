@@ -1,0 +1,551 @@
+nohup: bin/go-wechatv1: No such file or directory
+2017/05/23 16:40:03 start
+2017/05/23 16:40:32 start
+2017/05/23 16:40:52 start
+2017/05/23 16:49:47 start
+2017/05/23 16:50:52 start
+2017/05/23 16:51:35 start
+2017/05/23 17:44:59 cfg.json
+2017/05/23 17:44:59 parse config file cfg.json error: unexpected end of JSON input
+2017/05/23 17:49:33 cfg.json
+2017/05/23 17:49:33 g.ParseConfig ok, file cfg.json
+2017/05/23 20:15:25 cfg.json
+2017/05/23 20:15:25 g.ParseConfig ok, file cfg.json
+2017/05/23 20:15:49 cfg.json
+2017/05/23 20:15:49 g.ParseConfig ok, file cfg.json
+2017/05/23 20:25:40 cfg.json
+2017/05/23 20:25:40 g.ParseConfig ok, file cfg.json
+2017/05/23 20:29:44 cfg.json
+2017/05/23 20:29:44 g.ParseConfig ok, file cfg.json
+2017/05/23 20:31:20 cfg.json
+2017/05/23 20:31:20 g.ParseConfig ok, file cfg.json
+2017/05/23 20:31:20 &{true data/log.log  0xc4200e2680 0xc420078440 0xc42007f380 <nil> 0xc4200e2780 0xc42007b3d0 [0xc4200a61b0] 0xc4200784c0}
+2017/05/23 20:31:20 &{true data/log.log  0xc4200e2680 0xc420078440 0xc42007f380 <nil> 0xc4200e2780 0xc42007b3d0 [0xc4200a61b0] 0xc4200784c0}
+2017/05/23 20:35:53 cfg.json
+2017/05/23 20:35:53 g.ParseConfig ok, file cfg.json
+2017/05/23 20:35:53 true
+2017/05/23 21:57:11 cfg.json
+2017/05/23 21:57:11 g.ParseConfig ok, file cfg.json
+2017/05/23 21:57:11 true
+2017/05/23 22:11:29 cfg.json
+2017/05/23 22:11:29 g.ParseConfig ok, file cfg.json
+2017/05/23 22:11:29 g.InitWxConfig ok
+2017/05/23 22:11:29 &{gh_8xxxx  wxaccxxxx xxx xxxxx   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/23 22:11:29 true
+2017/05/23 22:12:06 cfg.json
+2017/05/23 22:12:06 g.ParseConfig ok, file cfg.json
+2017/05/23 22:12:06 g.InitWxConfig ok
+2017/05/23 22:12:06 &{gh_8xxxx  wxaccxxxx xxx xxxxx   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/23 22:12:06 true
+2017/05/23 22:12:45 cfg.json
+2017/05/23 22:12:45 g.ParseConfig ok, file cfg.json
+2017/05/23 22:12:45 g.InitWxConfig ok
+2017/05/23 22:12:45 &{gh_8xxxx  wxaccxxxx xxx xxxxx   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/23 22:17:38 cfg.json
+2017/05/23 22:17:38 g.ParseConfig ok, file cfg.json
+2017/05/23 22:17:38 g.InitWxConfig ok
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+panic(0x236f40, 0xc42007b620)
+	/usr/local/Cellar/go/1.7/libexec/src/runtime/panic.go:500 +0x1a1
+g.InitWxConfig()
+	/Users/apple/go/wechatv1/src/g/wechat.go:17 +0x11a
+main.main()
+	/Users/apple/go/wechatv1/main.go:22 +0x155
+2017/05/23 22:18:16 cfg.json
+2017/05/23 22:18:16 g.ParseConfig ok, file cfg.json
+2017/05/23 22:18:16 g.InitWxConfig ok
+2017/05/23 22:18:16 &{gh_8xxxx  wxaccxxxx xxx xxxxx   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/23 22:20:19 cfg.json
+2017/05/23 22:20:19 g.ParseConfig ok, file cfg.json
+2017/05/23 22:20:19 g.InitWxConfig ok
+2017/05/23 22:20:19 map[gh_8xxxx:0xc42001a1b0]
+2017/05/23 22:23:05 cfg.json
+2017/05/23 22:23:05 g.ParseConfig ok, file cfg.json
+2017/05/23 22:23:05 g.InitWxConfig ok
+2017/05/23 22:23:05 <nil>
+2017/05/23 22:24:13 cfg.json
+2017/05/23 22:24:13 g.ParseConfig ok, file cfg.json
+2017/05/23 22:24:13 g.InitWxConfig ok
+2017/05/23 22:24:13 &{gh_8ac8a8821eb9  wxaccxxxx weixin aeskey   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/23 22:25:29 cfg.json
+2017/05/23 22:25:29 g.ParseConfig ok, file cfg.json
+2017/05/23 22:25:29 g.InitWxConfig ok
+2017/05/23 22:25:29 &{gh_8ac8a8821eb8  wxaccxxxx weixin aeskey   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/23 22:59:28 cfg.json
+2017/05/23 22:59:28 g.ParseConfig ok, file cfg.json
+2017/05/23 22:59:28 g.InitWxConfig ok
+panic: open logfile error
+
+goroutine 1 [running]:
+panic(0x223120, 0xc420013720)
+	/usr/local/Cellar/go/1.7/libexec/src/runtime/panic.go:500 +0x1a1
+main.main()
+	/Users/apple/go/wechatv1/main.go:29 +0x2e0
+2017/05/23 23:00:36 cfg.json
+2017/05/23 23:00:36 g.ParseConfig ok, file cfg.json
+2017/05/23 23:00:36 g.InitWxConfig ok
+2017/05/23 23:01:19 cfg.json
+2017/05/23 23:01:19 g.ParseConfig ok, file cfg.json
+2017/05/23 23:01:19 g.InitWxConfig ok
+2017/05/23 23:02:03 cfg.json
+2017/05/23 23:02:03 g.ParseConfig ok, file cfg.json
+2017/05/23 23:02:03 g.InitWxConfig ok
+2017/05/23 23:03:54 cfg.json
+2017/05/23 23:03:54 g.ParseConfig ok, file cfg.json
+2017/05/23 23:03:54 g.InitWxConfig ok
+2017/05/23 23:04:26 cfg.json
+2017/05/23 23:04:26 g.ParseConfig ok, file cfg.json
+2017/05/23 23:04:26 g.InitWxConfig ok
+2017/05/23 23:04:52 cfg.json
+2017/05/23 23:04:52 g.ParseConfig ok, file cfg.json
+2017/05/23 23:04:52 g.InitWxConfig ok
+2017/05/23 23:06:19 cfg.json
+2017/05/23 23:06:19 g.ParseConfig ok, file cfg.json
+2017/05/23 23:06:19 g.InitWxConfig ok
+2017/05/24 11:43:12 cfg.json
+2017/05/24 11:43:12 g.ParseConfig ok, file cfg.json
+2017/05/24 11:43:12 g.InitWxConfig ok
+2017/05/24 11:45:00 cfg.json
+2017/05/24 11:45:00 g.ParseConfig ok, file cfg.json
+2017/05/24 11:45:00 g.InitWxConfig ok
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+panic(0x258e40, 0xc4200118f0)
+	/usr/local/Cellar/go/1.7.4_2/libexec/src/runtime/panic.go:500 +0x1a1
+g.GetDBConn(0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/fengya/go/wechatv1/src/g/db.go:43 +0x25c
+main.main()
+	/Users/fengya/go/wechatv1/main.go:37 +0x2d4
+2017/05/24 11:58:18 cfg.json
+2017/05/24 11:58:18 g.ParseConfig ok, file cfg.json
+2017/05/24 11:58:18 g.InitWxConfig ok
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+panic(0x258e40, 0xc4200118f0)
+	/usr/local/Cellar/go/1.7.4_2/libexec/src/runtime/panic.go:500 +0x1a1
+g.GetDBConn(0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/fengya/go/wechatv1/src/g/db.go:55 +0x25c
+main.main()
+	/Users/fengya/go/wechatv1/main.go:37 +0x2d4
+2017/05/24 11:59:44 cfg.json
+2017/05/24 11:59:44 g.ParseConfig ok, file cfg.json
+2017/05/24 11:59:44 g.InitWxConfig ok
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+panic(0x258e40, 0xc4200118f0)
+	/usr/local/Cellar/go/1.7.4_2/libexec/src/runtime/panic.go:500 +0x1a1
+g.GetDBConn(0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/fengya/go/wechatv1/src/g/db.go:56 +0x25c
+main.main()
+	/Users/fengya/go/wechatv1/main.go:37 +0x2d4
+2017/05/24 12:01:42 cfg.json
+2017/05/24 12:01:42 g.ParseConfig ok, file cfg.json
+2017/05/24 12:01:42 g.InitWxConfig ok
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+panic(0x258e60, 0xc4200118f0)
+	/usr/local/Cellar/go/1.7.4_2/libexec/src/runtime/panic.go:500 +0x1a1
+g.GetDBConn(0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/fengya/go/wechatv1/src/g/db.go:56 +0x263
+main.main()
+	/Users/fengya/go/wechatv1/main.go:37 +0x2d4
+2017/05/24 12:05:21 cfg.json
+2017/05/24 12:05:21 g.ParseConfig ok, file cfg.json
+2017/05/24 12:05:21 g.InitWxConfig ok
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+panic(0x258ec0, 0xc420011910)
+	/usr/local/Cellar/go/1.7.4_2/libexec/src/runtime/panic.go:500 +0x1a1
+g.GetDBConn(0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/fengya/go/wechatv1/src/g/db.go:57 +0x2d2
+main.main()
+	/Users/fengya/go/wechatv1/main.go:37 +0x2d4
+2017/05/24 12:17:52 cfg.json
+2017/05/24 12:17:52 g.ParseConfig ok, file cfg.json
+2017/05/24 12:17:52 g.InitWxConfig ok
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+panic(0x258ee0, 0xc420011910)
+	/usr/local/Cellar/go/1.7.4_2/libexec/src/runtime/panic.go:500 +0x1a1
+g.GetDBConn(0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/fengya/go/wechatv1/src/g/db.go:57 +0x2ee
+main.main()
+	/Users/fengya/go/wechatv1/main.go:37 +0x2d4
+2017/05/24 14:12:20 cfg.json
+2017/05/24 14:12:20 g.ParseConfig ok, file cfg.json
+2017/05/24 14:12:20 g.InitWxConfig ok
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+panic(0x258ee0, 0xc420011910)
+	/usr/local/Cellar/go/1.7.4_2/libexec/src/runtime/panic.go:500 +0x1a1
+g.GetDBConn(0x2a2c78, 0x6, 0x0, 0x0, 0x0)
+	/Users/fengya/go/wechatv1/src/g/db.go:57 +0x2ee
+main.main()
+	/Users/fengya/go/wechatv1/main.go:37 +0x2d7
+2017/05/24 14:13:35 cfg.json
+2017/05/24 14:13:35 g.ParseConfig ok, file cfg.json
+2017/05/24 14:13:35 g.InitWxConfig ok
+2017/05/24 14:13:35 g.InitDB ok
+2017/05/24 14:41:47 cfg.json
+2017/05/24 14:41:47 g.ParseConfig ok, file cfg.json
+2017/05/24 14:41:47 g.InitWxConfig ok
+2017/05/24 14:41:47 g.InitDB ok
+2017/05/24 14:44:52 cfg.json
+2017/05/24 14:44:52 g.ParseConfig ok, file cfg.json
+2017/05/24 14:44:52 g.InitWxConfig ok
+2017/05/24 14:44:52 g.InitDB ok
+2017/05/24 15:13:54 cfg.json
+2017/05/24 15:13:54 g.ParseConfig ok, file cfg.json
+2017/05/24 15:13:54 g.InitWxConfig ok
+2017/05/24 15:13:54 g.InitDB ok
+2017/05/24 15:17:43 cfg.json
+2017/05/24 15:17:43 g.ParseConfig ok, file cfg.json
+2017/05/24 15:17:43 g.InitWxConfig ok
+2017/05/24 15:17:43 g.InitDB ok
+2017/05/24 15:18:34 cfg.json
+2017/05/24 15:18:34 g.ParseConfig ok, file cfg.json
+2017/05/24 15:18:34 g.InitWxConfig ok
+2017/05/24 15:18:34 g.InitDB ok
+2017/05/24 15:18:34 http.Start ok, listening on 127.0.0.1:6061
+2017/05/24 15:19:11 cfg.json
+2017/05/24 15:19:11 g.ParseConfig ok, file cfg.json
+2017/05/24 15:19:11 g.InitWxConfig ok
+2017/05/24 15:19:11 g.InitDB ok
+2017/05/24 15:19:11 http.Start ok, listening on 127.0.0.1:6061
+2017/05/24 15:31:16 cfg.json
+2017/05/24 15:31:16 g.ParseConfig ok, file cfg.json
+2017/05/24 15:31:16 g.InitWxConfig ok
+2017/05/24 15:31:16 g.InitDB ok
+2017/05/24 15:31:16 http.Start ok, listening on 127.0.0.1:6061
+2017/05/24 15:38:16 cfg.json
+2017/05/24 15:38:16 g.ParseConfig ok, file cfg.json
+2017/05/24 15:38:16 g.InitWxConfig ok
+2017/05/24 15:38:16 g.InitDB ok
+2017/05/24 15:38:16 http.Start ok, listening on 127.0.0.1:6061
+2017/05/24 15:38:37 not find /public/index.html
+2017/05/24 15:38:42 not find /public/index.html
+2017/05/24 15:39:47 cfg.json
+2017/05/24 15:39:47 g.ParseConfig ok, file cfg.json
+2017/05/24 15:39:47 g.InitWxConfig ok
+2017/05/24 15:39:47 g.InitDB ok
+2017/05/24 15:39:47 http.Start ok, listening on 127.0.0.1:6061
+2017/05/25 15:47:46 cfg.json
+2017/05/25 15:47:46 g.ParseConfig ok, file cfg.json
+2017/05/25 15:47:46 g.InitWxConfig ok
+2017/05/25 15:47:46 g.InitDB,get db fail
+2017/05/25 15:47:46 g.InitDB ok
+2017/05/25 15:47:46 http.Start ok, listening on 127.0.0.1:6061
+2017/05/25 15:49:59 cfg.json
+2017/05/25 15:49:59 g.ParseConfig ok, file cfg.json
+2017/05/25 15:49:59 g.InitWxConfig ok
+2017/05/25 15:49:59 g.InitDB,get db fail
+2017/05/25 15:49:59 g.InitDB ok
+2017/05/25 15:49:59 http.Start ok, listening on 127.0.0.1:6061
+2017/05/25 15:50:09 wxid --> gh_123134
+2017/05/25 15:50:09 Runtime error caught: [Warn] wecat config not find
+2017/05/25 15:50:42 wxid --> gh_8ac8a8821eb9
+2017/05/25 15:50:42 Runtime error caught: nonce is nil
+2017/05/26 11:02:16 cfg.json
+2017/05/26 11:02:16 g.ParseConfig ok, file cfg.json
+2017/05/26 11:02:16 g.InitWxConfig ok
+2017/05/26 11:02:16 g.InitDB,get db fail
+2017/05/26 11:02:16 g.InitDB ok
+2017/05/26 11:02:16 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 11:02:48 wxid --> 
+2017/05/26 11:02:48 Runtime error caught: nonce is nil
+2017/05/26 11:19:58 cfg.json
+2017/05/26 11:19:58 g.ParseConfig ok, file cfg.json
+2017/05/26 11:19:58 g.InitWxConfig ok
+2017/05/26 11:19:58 g.InitDB,get db fail
+2017/05/26 11:19:58 g.InitDB ok
+2017/05/26 11:19:58 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 11:20:18 wxid --> 
+2017/05/26 11:20:18 Runtime error caught: nonce is nil
+2017/05/26 13:27:47 wxid --> gh_f353e8a82fe5
+2017/05/26 13:27:47 Runtime error caught: [Warn] wecat config not find
+2017/05/26 13:32:43 cfg.json
+2017/05/26 13:32:43 g.ParseConfig ok, file cfg.json
+2017/05/26 13:32:43 g.InitWxConfig ok
+2017/05/26 13:32:43 g.InitDB,get db fail
+2017/05/26 13:32:43 g.InitDB ok
+2017/05/26 13:32:43 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 13:34:27 wxid --> gh_f353e8a82fe5
+2017/05/26 13:34:27 Runtime error caught: [Warn] wecat config not find
+2017/05/26 13:35:25 cfg.json
+2017/05/26 13:35:25 g.ParseConfig ok, file cfg.json
+2017/05/26 13:35:25 g.InitWxConfig ok
+2017/05/26 13:35:25 g.InitDB,get db fail
+2017/05/26 13:35:25 g.InitDB ok
+2017/05/26 13:35:25 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 13:35:29 cfg.json
+2017/05/26 13:35:29 g.ParseConfig ok, file cfg.json
+2017/05/26 13:35:29 g.InitWxConfig ok
+2017/05/26 13:35:29 g.InitDB,get db fail
+2017/05/26 13:35:29 g.InitDB ok
+2017/05/26 13:35:29 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 13:35:33 wxid --> gh_f353e8a82fe5
+2017/05/26 13:35:33 Runtime error caught: [Warn] wecat config not find
+2017/05/26 13:36:08 cfg.json
+2017/05/26 13:36:08 g.ParseConfig ok, file cfg.json
+2017/05/26 13:36:08 g.InitWxConfig ok
+2017/05/26 13:36:08 g.InitDB,get db fail
+2017/05/26 13:36:08 g.InitDB ok
+<nil>
+2017/05/26 13:36:08 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 13:36:15 wxid --> gh_f353e8a82fe5
+2017/05/26 13:36:15 Runtime error caught: [Warn] wecat config not find
+2017/05/26 13:39:53 cfg.json
+2017/05/26 13:39:53 g.ParseConfig ok, file cfg.json
+2017/05/26 13:39:53 g.InitWxConfig ok
+2017/05/26 13:39:53 g.InitDB,get db fail
+2017/05/26 13:39:53 g.InitDB ok
+2017/05/26 13:39:53 &{true stdout  0xc4200ce800 0xc420014500 0xc42000d7d0 <nil> 0xc4200ce900 0xc4200116c8 [0xc42000e240 0xc42000e2d0] <nil>}
+2017/05/26 13:39:53 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 13:40:14 cfg.json
+2017/05/26 13:40:14 g.ParseConfig ok, file cfg.json
+2017/05/26 13:40:14 g.InitWxConfig ok
+2017/05/26 13:40:14 g.InitDB,get db fail
+2017/05/26 13:40:14 g.InitDB ok
+<nil>
+2017/05/26 13:40:14 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 13:41:55 cfg.json
+2017/05/26 13:41:55 g.ParseConfig ok, file cfg.json
+2017/05/26 13:41:55 g.InitWxConfig ok
+2017/05/26 13:41:55 g.InitDB,get db fail
+2017/05/26 13:41:55 g.InitDB ok
+<nil>
+2017/05/26 13:41:55 map[gh_8ac8a8821eb9:0xc4200a2120 gh_8ac8a8821eb8:0xc4200a21b0]
+2017/05/26 13:41:55 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 13:42:36 cfg.json
+2017/05/26 13:42:36 g.ParseConfig ok, file cfg.json
+2017/05/26 13:42:36 g.InitWxConfig ok
+2017/05/26 13:42:36 g.InitDB,get db fail
+2017/05/26 13:42:36 g.InitDB ok
+&{gh_8ac8a8821eb9  wxaccxxxx weixin aeskey   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/26 13:42:36 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 13:47:17 wxid --> gh_8ac8a8821eb9
+2017/05/26 13:47:17 Runtime error caught: runtime error: index out of range
+2017/05/26 13:58:30 cfg.json
+2017/05/26 13:58:30 g.ParseConfig ok, file cfg.json
+2017/05/26 13:58:30 g.InitWxConfig ok
+2017/05/26 13:58:30 0 &{gh_8ac8a8821eb9  wxaccxxxx weixin aeskey   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/26 13:58:30 1 &{gh_8ac8a8821eb8  wxaccxxxx weixin aeskey   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/26 13:58:30 g.InitDB,get db fail
+2017/05/26 13:58:30 g.InitDB ok
+2017/05/26 13:58:30 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:00:03 cfg.json
+2017/05/26 14:00:03 g.ParseConfig ok, file cfg.json
+2017/05/26 14:00:03 g.InitWxConfig ok
+2017/05/26 14:00:03 &{gh_8ac8a8821eb9  wxaccxxxx weixin aeskey   true 欢迎来到云喇叭，网购炫货求点赞，上传宝贝试一试！（努力开发中...）}
+2017/05/26 14:00:03 g.InitDB,get db fail
+2017/05/26 14:00:03 g.InitDB ok
+2017/05/26 14:00:03 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:00:23 wxid --> gh_8ac8a8821eb9
+2017/05/26 14:00:23 Runtime error caught: runtime error: index out of range
+2017/05/26 14:02:39 wxid --> gh_f353e8a82fe5
+2017/05/26 14:02:39 Runtime error caught: [Warn] wecat config not find
+2017/05/26 14:02:55 cfg.json
+2017/05/26 14:02:55 g.ParseConfig ok, file cfg.json
+2017/05/26 14:02:55 g.InitWxConfig ok
+2017/05/26 14:02:55 <nil>
+2017/05/26 14:02:55 g.InitDB,get db fail
+2017/05/26 14:02:55 g.InitDB ok
+2017/05/26 14:02:55 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:03:19 wxid --> gh_f353e8a82fe5
+2017/05/26 14:03:19 Runtime error caught: runtime error: index out of range
+2017/05/26 14:06:14 cfg.json
+2017/05/26 14:06:14 g.ParseConfig ok, file cfg.json
+2017/05/26 14:06:14 g.InitWxConfig ok
+2017/05/26 14:06:14 <nil>
+2017/05/26 14:06:14 g.InitDB,get db fail
+2017/05/26 14:06:14 g.InitDB ok
+2017/05/26 14:06:14 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:06:31 wxid --> gh_f353e8a82fe5
+2017/05/26 14:06:31 测试
+2017/05/26 14:06:31 Runtime error caught: runtime error: index out of range
+2017/05/26 14:07:15 cfg.json
+2017/05/26 14:07:15 g.ParseConfig ok, file cfg.json
+2017/05/26 14:07:15 g.InitWxConfig ok
+2017/05/26 14:07:15 <nil>
+2017/05/26 14:07:15 g.InitDB,get db fail
+2017/05/26 14:07:15 g.InitDB ok
+2017/05/26 14:07:15 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:07:19 wxid --> gh_f353e8a82fe5
+2017/05/26 14:07:19 Runtime error caught: runtime error: index out of range
+2017/05/26 14:07:42 cfg.json
+2017/05/26 14:07:42 g.ParseConfig ok, file cfg.json
+2017/05/26 14:07:42 g.InitWxConfig ok
+2017/05/26 14:07:42 <nil>
+2017/05/26 14:07:42 g.InitDB,get db fail
+2017/05/26 14:07:42 g.InitDB ok
+2017/05/26 14:07:42 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:07:47 wxid --> gh_f353e8a82fe5
+2017/05/26 14:07:47 测试
+2017/05/26 14:07:47 Runtime error caught: runtime error: index out of range
+2017/05/26 14:08:28 cfg.json
+2017/05/26 14:08:28 g.ParseConfig ok, file cfg.json
+2017/05/26 14:08:28 g.InitWxConfig ok
+2017/05/26 14:08:28 <nil>
+2017/05/26 14:08:28 g.InitDB,get db fail
+2017/05/26 14:08:28 g.InitDB ok
+2017/05/26 14:08:28 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:08:37 wxid --> gh_f353e8a82fe5
+2017/05/26 14:08:37 Runtime error caught: runtime error: index out of range
+2017/05/26 14:10:24 cfg.json
+2017/05/26 14:10:24 g.ParseConfig ok, file cfg.json
+2017/05/26 14:10:24 g.InitWxConfig ok
+2017/05/26 14:10:24 <nil>
+2017/05/26 14:10:24 g.InitDB,get db fail
+2017/05/26 14:10:24 g.InitDB ok
+2017/05/26 14:10:24 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:10:31 wxid --> gh_f353e8a82fe5
+2017/05/26 14:10:31 测试
+2017/05/26 14:10:33 wxid --> gh_f353e8a82fe5
+2017/05/26 14:10:33 测试
+2017/05/26 14:10:45 wxid --> gh_f353e8a82fe5
+2017/05/26 14:10:45 测试
+2017/05/26 14:11:12 cfg.json
+2017/05/26 14:11:12 g.ParseConfig ok, file cfg.json
+2017/05/26 14:11:12 g.InitWxConfig ok
+2017/05/26 14:11:12 <nil>
+2017/05/26 14:11:12 g.InitDB,get db fail
+2017/05/26 14:11:12 g.InitDB ok
+2017/05/26 14:11:12 http.Start ok, listening on 127.0.0.1:6061
+2017/05/26 14:11:14 wxid --> gh_f353e8a82fe5
+2017/05/27 09:52:37 g.ParseConfig ok, file cfg.json
+2017/05/27 09:52:37 g.InitWxConfig ok
+2017/05/27 09:52:37 <nil>
+2017/05/27 09:52:37 g.InitDB,get db fail
+2017/05/27 09:52:37 g.InitDB ok
+2017/05/27 09:52:37 stdout
+PID.27909 2017/05/27 09:52:37 http.go:26: http.Start ok, listening on 127.0.0.1:6061
+PID.27909 2017/05/27 09:52:37 http.go:27: listen tcp 127.0.0.1:6061: bind: address already in use
+2017/05/27 09:53:28 g.ParseConfig ok, file cfg.json
+2017/05/27 09:53:28 g.InitWxConfig ok
+2017/05/27 09:53:28 <nil>
+2017/05/27 09:53:28 g.InitDB,get db fail
+2017/05/27 09:53:28 g.InitDB ok
+2017/05/27 09:53:28 stdout
+PID.27986 2017/05/27 09:53:28 http.go:26: http.Start ok, listening on 127.0.0.1:6061
+2017/05/28 11:11:12 g.ParseConfig ok, file cfg.json
+2017/05/28 11:11:12 g.InitWxConfig ok
+2017/05/28 11:11:12 g.InitDB ok
+PID.30717 2017/05/28 11:11:12 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:12 http.go:28: http.Start ok, listening on 127.0.0.1:6061
+PID.30717 2017/05/28 11:11:13 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:14 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:15 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:16 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:17 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:18 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:19 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:20 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:21 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:22 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:23 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:24 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:25 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:26 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:27 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:28 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:29 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:30 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:31 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:32 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:33 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:34 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:35 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:36 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:37 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:38 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:39 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:40 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:41 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:42 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:43 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:44 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:45 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:46 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:47 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:48 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:49 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:50 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:51 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:52 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:53 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:54 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:55 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:56 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:57 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:58 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:11:59 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:00 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:01 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:02 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:03 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:04 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:05 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:06 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:07 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:08 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:09 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:10 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:11 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:12 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:13 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:14 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:15 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:16 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:17 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:18 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:19 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:20 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:21 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:22 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:23 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:24 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:25 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:26 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:27 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:28 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:29 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:30 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:31 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:32 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:33 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:34 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:35 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:36 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:37 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:38 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:39 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:40 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:41 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:42 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:43 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:44 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:45 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:46 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:47 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:48 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:49 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:50 accesstoken.go:61: [warn] access token not ready, wait gh_f353e8a82fe5
+PID.30717 2017/05/28 11:12:51 main.go:49: all service stopping...
+PID.30717 2017/05/28 11:12:51 main.go:57: all service stop ok 
+2017/05/28 11:12:52 g.ParseConfig ok, file cfg.json
+2017/05/28 11:12:52 g.InitWxConfig ok
+2017/05/28 11:12:52 g.InitDB ok
+PID.30861 2017/05/28 11:12:52 http.go:28: http.Start ok, listening on 127.0.0.1:6061
+PID.30861 2017/05/28 11:13:43 api.go:13: ParseQuery map[]
+PID.30861 2017/05/28 11:13:43 api.go:20: 
+PID.30861 2017/05/28 11:14:23 api.go:13: ParseQuery map[cfg:[{"name":"admin"}]]
+PID.30861 2017/05/28 11:14:23 api.go:20: {"name":"admin"}
