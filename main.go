@@ -7,6 +7,7 @@ import (
 	"g"
 	"http"
 	"log"
+	"mq"
 	"os"
 	"os/signal"
 	"redis"
@@ -26,7 +27,7 @@ func main() {
 	g.InitDB()           //db池
 	g.InitRootDir()      //全局参数
 	redis.InitConnPool() //redis 链接初始化
-
+	mq.InitConnPool()
 	logTo := g.Config().Logs
 	if logTo != "stdout" {
 		f, err := os.OpenFile(logTo, os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
@@ -51,7 +52,7 @@ func main() {
 		// http.Stop()
 		// proc.Stop()
 
-		// mq.ConnPool.Close() // 关闭连接池
+		mq.ConnPool.Close() // 关闭连接池
 		redis.ConnPool.Close()
 
 		log.Println("all service stop ok ")
