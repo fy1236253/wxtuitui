@@ -90,7 +90,7 @@ func ProcessWechatText(wxcfg *mp.WechatConfig, mixedMsg *message.MixedMessage) s
 		go SendMessageText(wxcfg.WxID, mixedMsg.FromUserName, "放下屠刀立地成佛！")
 	} else if txtContent == "佛讲缘我讲钱" {
 		SendMessageText(wxcfg.WxID, mixedMsg.FromUserName, "欢迎您管理员！")
-		menu.SearchMenu(wxcfg.WxID)
+		// menu.SearchMenu(wxcfg.WxID)
 	}
 	return ""
 }
@@ -127,7 +127,7 @@ func ProcessWechatEvent(wxcfg *mp.WechatConfig, mixedMsg *message.MixedMessage) 
 		{ // 菜单点击
 			tmp := menu.GetClickEvent(mixedMsg)
 			if tmp.EventKey == "sendNews" {
-				SendMessageNews(wxcfg.WxID, mixedMsg.FromUserName, "测试文章", "hello worl 这是一条充满魔咒的图文", "http://www.baidu.com", "http://mmbiz.qpic.cn/mmbiz_png/rGGaK9sQCufw4bTESEXUBDoibyfglgrdLmHZo3rUrDo1PQqqf28XQcx7CDgxfaibPSYTDdTuo4r5bg92XIv4avQA/0")
+				// SendMessageNews(wxcfg.WxID, mixedMsg.FromUserName, "测试文章", "hello worl 这是一条充满魔咒的图文", "http://www.baidu.com", "http://mmbiz.qpic.cn/mmbiz_png/rGGaK9sQCufw4bTESEXUBDoibyfglgrdLmHZo3rUrDo1PQqqf28XQcx7CDgxfaibPSYTDdTuo4r5bg92XIv4avQA/0")
 			}
 		}
 
