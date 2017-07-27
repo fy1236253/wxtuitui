@@ -1,15 +1,73 @@
-{
+{"cmd":"menu", "wxid":"gh_adb87f79bbcd", 
     "button": [
         {
             "type": "view",
-            "name": "二级菜单02",
-            "url": "http:\/\/www.baidu.com"
+            "name": "活动列表",
+            "url": "http:\/\/www.e7tuitui.com\/wx\/spreads"
         },
         {
             "type": "view",
-            "name": "今日头条",
-            "url": "http:\/\/www.baidu.com",
-            "sub_button": []
+            "name": "个人中心",
+            "url": "http:\/\/www.e7tuitui.com\/wx\/my_accounts"
         }
+    ]
+}
+//
+{"cmd":"menu", "wxid":"gh_8ac8a8821eb9", 
+    "button":[
+    {
+        "name": "云喇叭",
+        "sub_button":[  
+            {
+            "type": "click",
+            "name": "介绍",
+            "key": "inner_click_about"
+            },           
+            {
+            "type": "click",
+            "name": "查通知记录",
+            "key": "inner_click_search"
+            },           
+            {
+            "type": "view",
+            "name": "查快递",
+            "url": "http://wechat2.shenbianvip.com/search"
+            },           
+            {
+            "type": "view",
+            "name": "我要发快递",
+            "url": "http://wechat2.shenbianvip.com/h5/send"
+            },
+            {
+            "type": "view",
+            "name": "通知记录详情",
+            "url": "http://wechat2.shenbianvip.com/package"
+            }
+        ]
+    },
+    {
+        "name": "会员活动",
+        "sub_button":[
+            {
+            "type": "view",
+            "name": "九折充流量",
+            "url": "http://wechat2.shenbianvip.com/pay/wx/recharge"
+            }
+        ]
+    },
+    {
+        "name": "设置",
+        "sub_button":[
+            {
+            "type": "click",
+            "name": "手机绑定",
+            "key": "inner_click_bind"
+            },{
+            "type": "click",
+            "name": "我的积分",
+            "key": "inner_click_jifen"
+            }
+        ]
+    }
     ]
 }
